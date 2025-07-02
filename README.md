@@ -1,7 +1,6 @@
 # 📣 MS Advertising | Official Website
 
-This project is a professional website built for **MS Advertising**, a creative agency specializing in brand promotions and advertising campaigns. The site showcases the agency’s portfolio, services, and collaborations with reputed clients such as **Mahindra**, **Gaware**, and **WTC**.
-
+This project is a professional website built for **MS Advertising**, a creative agency specializing in brand promotions and advertising campaigns. The site showcases the agency’s portfolio, services, and collaborations with reputed clients such as **Mahindra**, **Gaware**.
 ---
 
 
