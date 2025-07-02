@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:ital,wght@0,100..700;1,100..700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Saira:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap');
+
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.josefin-sans-head {
+  font-family: "Josefin Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.libre-baskerville-bold {
+    font-family: "Libre Baskerville", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  .roboto-slab-head {
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+  }
+  .eb-garamond-head {
+    font-family: "EB Garamond", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  
+ 
+
+.josefin-slab-heading {
+  font-family: "Josefin Slab", serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+}
+.saira-box {
+  font-family: "Saira", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}

@@ -1,0 +1,47 @@
+
+.logo-strip {
+    padding-top: 20px;
+    width: 100%;
+    padding: 10px 0;
+    overflow: hidden;
+
+}
+
+.logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    white-space: nowrap;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    padding: 50px 20px;
+
+}
+
+/* Hide scrollbar */
+.logo-container::-webkit-scrollbar {
+    display: none;
+}
+
+.logo-container img {
+    height: 50px;
+    object-fit: contain;
+    scroll-snap-align: center;
+    transition: transform 0.3s ease-in-out;
+}
+
+.logo-container img:hover {
+    transform: scale(1.1);
+}
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+    .logo-container {
+        gap: 20px;
+    }
+
+    .logo-container img {
+        height: 40px;
+    }
+}

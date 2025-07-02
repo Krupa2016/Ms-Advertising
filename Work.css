@@ -1,0 +1,48 @@
+
+
+
+
+
+.work_title{
+    font-family: "Poetsen One";
+}
+
+
+.work_img{
+    display: flex;
+    justify-content:top;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-left: 10%;
+    margin-bottom: 20px;
+    
+}
+
+.mahindra1{
+    width: 50%;
+    height: auto;
+    margin-right: 10px;
+}
+
+.mahindra2{
+    width: 40%;
+    height: auto;
+}
+
+
+
+.mahindra3{
+    width: 40%;
+    height: auto;
+    margin-top: 10px;
+}
+
+.gaware2{
+    width: 50%;
+    height: auto;
+}
+
+.gaware{
+    width: 90%;
+    height: auto;
+}

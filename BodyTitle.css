@@ -1,0 +1,64 @@
+
+
+.body-title {
+    margin-bottom: 0px;  /* Reduce gap */
+    text-align: center;
+    /* font-family: "Libre Baskerville", Sans-serif; */
+    font-size: 5.2rem;
+    font-weight: 600;
+    color: rgb(43, 37, 37); /* Adjust as needed */
+    font-family: "Josefin Slab", serif;
+}
+
+.body-subtitle {
+    text-align: center;
+    font-size: 5.8rem; /* Adjust size */
+    font-weight: 600;
+    margin-top: 0px; /* Reduce space */
+    color: rgb(43, 37, 37); /* Adjust as needed */
+    /* font-family: "Libre Baskerville", Sans-serif; */
+    margin-bottom: 0px;
+    font-family: "Josefin Slab", serif;
+}
+
+.gardex {
+  background: linear-gradient(to right, #f12f24 10%, #f46121 50%, #f78f1e 70%);
+    background-clip: inherit;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+
+
+
+
+
+
+
+.pbody-title {
+  margin-bottom: 0px;  /* Reduce gap */
+  text-align: center;
+  font-family: "Josefin Slab", serif;
+  font-size: 4rem;
+  font-weight: 600;
+}
+
+.pbody-subtitle {
+  text-align: center;
+  font-size: 4rem;
+  font-weight: 600;
+  margin-top: 0px; /* Reduce space */
+  color: rgb(9, 7, 7); /* Adjust as needed */
+  font-family: "Syne", Sans-serif;
+  margin-bottom: 0px;
+}
+
+.pgardex {
+  background: linear-gradient(to right, #f12f24 10%, #f46121 50%, #f78f1e 70%);
+  background-clip: inherit;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+

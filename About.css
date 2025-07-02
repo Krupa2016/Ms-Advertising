@@ -1,0 +1,230 @@
+.about_us{
+    background-color: antiquewhite;
+    padding-top: 50px;
+    
+  }
+  
+  
+  
+  .agardex {
+      background: linear-gradient(to right, #f12f24 40%, #f46121 50%, #f78f1e 70%);
+        background-clip: inherit;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-size: 5.8rem; /* Adjust size */
+        /* font-weight: 600; */
+        text-align: center;
+        font-family: "Josefin Slab", serif;
+        margin-top: 0;
+    }
+  
+    
+    
+    .agradexp{
+      text-align: center;
+      font-size: 1.5rem;
+      padding-left: 30px;
+      font-style: italic;
+      padding-bottom: 50px;
+      font-family: "Libre Baskerville";
+    }
+  
+  
+    /* TwoSectionDiv.css */
+  .two-section-container {
+    display: flex;
+    align-items: center; /* Vertically align text and image */
+    justify-content: space-between; /* Put space between text and image */
+    padding: 40px; /* Add some padding around the container */
+    max-width: 100%; /* Set a maximum width for the container if needed */
+    margin: 0 auto; /* Center the container horizontally */
+  
+  }
+
+  .gradient_text {
+    background: linear-gradient(to right, #f12f24 10%, #f46121 50%, #f78f1e 70%);
+      background-clip: inherit;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+  }
+
+  
+    .gradient_texts {
+    background: linear-gradient(to right, #f12f24 10%, #f46121 50%, #f78f1e 70%);
+      background-clip: inherit;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      font-size: 2rem;
+  }
+  .left-text-section {
+    flex: 1; /* Take up available space */
+    padding-right: 40px; /* Add some spacing between text and image */
+  }
+  
+  .sgardex {
+    background: linear-gradient(to right, #f12f24 40%, #f46121 50%, #f78f1e 70%);
+      background-clip: inherit;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      font-size: 5rem; /* Adjust size */
+      font-weight: 600;
+      text-align: center;
+  
+        font-family: "Josefin ", serif;
+      
+  }
+  
+    
+  .agradexp{
+    font-size: 1.5rem;
+    padding-left: 30px;
+    font-style: italic;
+    padding-bottom: 50px;
+  }
+  
+  
+  
+  .right-image-section {
+    flex: 1; /* Take up available space */
+    max-width: 50%; /* Limit the maximum width of the image section */
+  }
+  
+  .section-image {
+    display: block; /* Remove extra space below inline elements */
+    width: 80%; /* Make the image responsive within its container */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 8px; /* Optional: Add some rounded corners to the image */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle shadow */
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .two-section-container {
+      flex-direction: column; /* Stack text and image on smaller screens */
+      text-align: center; /* Center text on smaller screens */
+      padding: 20px;
+    }
+  
+    .left-text-section {
+      padding-right: 0;
+      margin-bottom: 30px; /* Add space between text and image */
+    }
+  
+    .right-image-section {
+      max-width: 80%; /* Make image wider on smaller screens */
+    }
+  }
+  
+  
+  /* GradientWordCloud.css */
+  .gradient-word-cloud-container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    gap: 15px; /* Space between words */
+    border-radius: 8px; /* Optional rounded corners */
+    background-color: antiquewhite;
+    font-family: "Libre Baskerville";
+  }
+  
+  .word {
+    font-family: sans-serif;
+    font-weight: bold;
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    display: inline-block; /* Allows setting width/height if needed */
+    
+  }
+  
+  .word::before {
+    content: attr(data-text); /* For better accessibility if needed */
+    position: absolute;
+    opacity: 0;
+    pointer-events: none;
+  }
+  
+  .word.small {
+    font-size: 8rem;
+  }
+  
+  .word.medium {
+    font-size: 5.5rem;
+  }
+  
+  .word.large {
+    font-size: 9rem;
+  }
+  
+  .word.extra-large {
+    font-size: 3.6rem;
+  }
+  
+  /* Apply gradient using CSS variables */
+  .word {
+    background-image: linear-gradient(to right, var(--gradient-start), var(--gradient-end));
+  }
+  
+  /* Optional: Add a subtle shadow for better visual separation */
+  .word {
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+  }
+  
+  
+  
+  
+  
+  
+  /* TwoSectionDirectText.css */
+  .two-section-direct-text-container {
+    display: flex;
+    justify-content: space-around; /* Distribute space evenly */
+    /* Remove align-items: center; */
+    padding: 40px; /* Add some padding around the container */
+    margin: 0 auto; /* Center the container horizontally */
+    border-radius: 8px; /* Optional rounded corners */
+    margin-top: 20px;
+  }
+  
+  
+  .text-section {
+    text-align: center;
+    margin-bottom: 0;
+  }
+  
+  .direct-title {
+    font-size: 3rem; /* Adjust as needed */
+    font-weight: bold;
+    color: #e11c1d; /* Example primary color */
+    margin-bottom: 5px;
+  }
+  
+  .direct-subtitle {
+    font-size: 1.2rem; /* Adjust as needed */
+    color: #555;
+  }
+  
+  /* Responsive adjustments for smaller screens */
+  @media (max-width: 600px) {
+    .two-section-direct-text-container {
+      flex-direction: column; /* Stack sections vertically */
+      text-align: center;
+      padding: 30px;
+    }
+  
+    .text-section {
+      margin-bottom: 20px;
+    }
+  
+    .text-section:last-child {
+      margin-bottom: 0;
+    }
+  
+    .direct-title {
+      font-size: 2.5rem;
+    }
+  
+    .direct-subtitle {
+      font-size: 1rem;
+    }
+  }
